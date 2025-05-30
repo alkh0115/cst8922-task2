@@ -2,6 +2,9 @@
 Below is a full Terraform-based solution that implements the requirement:
 
 **Policy-based restrictions on premium services (e.g., Premium Storage), with automated approval workflows to unlock usage as needed.**
+## Objective
+To optimize Azure spending and enforce governance, the goal is to restrict the use of high-cost Azure services—such as premium storage SKUs—by default. This approach aligns with FinOps principles of cost control and accountability.
+
 
 ## ✅ Deliverables You Can Use
 1- Terraform Script (main.tf) – creates the policy and deploys the Logic App via ARM template.
